@@ -15,14 +15,15 @@ body {
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(245, 222, 179, 0.6);
-  border-opacity:
-  
+  border-bottom: 1px solid rgba(245, 222, 179, 0.2);
 }
 
 .header h1 {
   flex: 0 0 auto;
   margin-right: auto;
+  color: rgba(255, 166, 0, 0.919);
+  font-size: 70px;
+  margin: 60px;
 }
 
 .header .topnav {
@@ -38,12 +39,37 @@ body {
   text-decoration: none;
 }
 
-.header nav {
+.header .topnav a:hover {
+  color: #808080;
+}
+
+.header .nav {
   flex: 0 0 auto;
 }
 
+.header .nav a {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #808080;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+  margin-right: 100px;
+}
+
+.header .nav a:hover {
+  color:#ffffff;
+  background-color: #4e6172;
+}
+
 body h1 {
-  color: rgba(255, 166, 0, 0.919);
-  font-size: 70px;
+  color: #808080;
+  font-size: 40px;
   margin: 60px;
+}
+
+#tavern {
+    
+    opacity: .8;
 }
