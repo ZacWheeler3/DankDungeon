@@ -1,12 +1,44 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body {
-    background-image: url('dwarven-cityz.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   }
+  background-image: url("dwarven-cityz.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  flex: 1 0 auto;
+  margin-right: auto;
+}
+
+.header .topnav {
+  flex: 1 0 auto;
+  margin-left: auto;
+}
+
+.header nav {
+  flex: 1 0 auto;
+  margin-left: auto;
+}
+
+body h1 {
+  color: rgba(255, 166, 0, 0.919);
+  font-size: 70px;
+  margin: 60px;
+}
+
+.topnav a {
+  color: red;
+  overflow: hidden;
+}
